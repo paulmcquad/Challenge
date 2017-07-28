@@ -1,0 +1,44 @@
+header, aside, article, footer{
+	color: white;
+	float:left;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: Helvetica;
+	font size: 40px;
+}
+
+
+#container {
+	background-color: #ffffff;
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+
+}
+
+header {
+	background-color: #00539F;
+	width: calc(100% - 30px);
+	padding-top: 20px;
+}
+
+
+aside {
+	background-color:#e9ebee;
+	color: #333;
+	width: calc(25% - 30px);
+	height: 400px;
+}
+
+article {
+	background-color:#e9ebee;
+	color: #333;
+	width: calc(75% - 30px);
+	height: 400px;
+}
+
+footer{
+	color: #365899;
+	width: 100%;
+	width: calc(100% - 30px);
+}

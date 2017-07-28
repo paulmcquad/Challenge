@@ -1,0 +1,40 @@
+header, aside, footer{
+	color: white;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: Helvetica;
+	font size: 40px;
+}
+
+
+#container {
+	background-color: #ffffff;
+	width: 960px;
+	height: 500px;
+	margin: 0 auto;
+
+}
+
+header, h4 {
+	/*background-color: #00539F;*/
+	color: orange;
+	width: calc(100% - 30px);
+	padding-top: 20px;
+}
+
+
+aside {
+	color: #333;
+	/*height: 400px;*/
+}
+
+footer{
+	background-color: rgb(116, 119, 123);
+	width: 100%;
+	width: calc(100% - 30px);
+}
+
+p{
+	float: left;
+}

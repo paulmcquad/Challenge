@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first Page</title>
+            <link href="index.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <h1>Halloumi Burger Supreme</h1>
+            <img id="burger-image" src="http://homecookingadventure.com/images/recipes/halloumi-burger-main-image.jpg"></img>
+            <p> Check this out.. Halloumi, Aubergine, Courgette and Pepper 'burger' with home made
+                sweet chilli ketchup and dairy free mayonnaise.This will make all the meat eating BBQ heads
+                envy you this summer!!
+            </p>
+
+           <h2>Ingredients</h2>
+           <ul id = "test">
+               <li>1 Courgette</li>
+               <li>1 Aubergine</li>
+               <li>1 Red Pepper</li>
+               <li>5 Tablespoons of Olive Oil</li>
+               <li>1 Teaspoon salt</li>
+               <li>1 x 200g pack Halloumi cheese</li>
+               <li>4 Burger buns or wholemeal pitta</li>
+               <li>Ketchup</li>
+               <li>Mayo</li>
+               <li>50g Rocket or similar leaves</li>
+           </ul>
+
+          <h2>Preparation</h2>
+           <ol id ="prepList">
+               <li>
+                   Cut the courgette in half and then into strips lengthwise,
+                   slice the aubergines lengthwise into thin strips
+                   and chop the pepper vertically into four large sections
+               </li>
+               <li>
+                   Chop the halloumi into 4 thin rectangular slices.
+               </li>
+               <li>
+                   Put the cut veg into a large bowl with 4 tablespoons of the oil
+                   and the salt and mix well until they all have a nice even coating.</li>
+               <li>
+                   Start to grill the prepared veg on a hot barbecue,
+                   turning regularly â€“ you want them nicely charred but also soft and tender.</li>
+               <li>
+                   Remove your cooked veg from the grill and set aside while you cook the halloumi â€“
+                   it will cook very quickly! Put it on the barbecue until it has nice grill marks on each side, about 5 minutes.
+               </li>
+               <li>
+                   Toast the buns on the barbecue, then layer them up with some ketchup on the bottom bun,
+                   mayo on the top bun, grilled courgettes, aubergine, halloumi, roasted peppers and some rocket in between.
+               </li>
+               <li>
+                   Take the first bite... epic, and oh so tasty!
+               </li>
+           </ol>
+
+           <h3>More great halloumi Dishes</h3>
+           <a href="http://www.bbc.co.uk/food/halloumi_cheese" target="_blank">BBC Halloumi Recipies</a>
+           <div id=footer>
+               <p class="footer-text-right"> Copyright Brian 2017</p>
+           </div>
+       </div>
+
+       <script type="text/javascript">
+       document.getElementById('burger-image').onmouseenter = function () {
+          document.getElementById('burger-image').src = "https://s3-media2.fl.yelpcdn.com/bphoto/y69sGYgLoZLCex8kHU9-Gg/348s.jpg";
+       }
+
+       document.getElementById('burger-image').onmouseleave = function () {
+          document.getElementById('burger-image').src = "http://homecookingadventure.com/images/recipes/halloumi-burger-main-image.jpg";
+       }
+
+       </script>
+    </body>
+</html>
